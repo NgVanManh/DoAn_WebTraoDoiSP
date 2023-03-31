@@ -35,10 +35,11 @@ public class SchedulerConfig {
     @Autowired
     private OrderHistoryRepository orderHistoryRepository;
 
-    @Scheduled(fixedDelay = 300000, initialDelay = 300000) //300000
+    @Scheduled(fixedDelay = 2000, initialDelay = 2000) //300000
     public void updateAutoCancelOrder(){
+        System.out.println("Scheduled updateAutoCancelOrder");
         Calendar cl = Calendar.getInstance();
-        cl.add(Calendar.MINUTE, -30);
+        cl.add(Calendar.MINUTE, -1);
 
         List<Order> orders = orderRepository.findListCancel(cl.getTime());
         if(orders.size() > 0){
@@ -51,7 +52,7 @@ public class SchedulerConfig {
     private void cancelOrder(Integer idOrder){
         Order orderInfo = orderService.getOne(idOrder);
         if(orderInfo == null) return;
-        if(orderInfo.getIdType() == 2){
+        if(orderInfo.getIdType() == 2 && orderInfo.getIdRedirect() != null && orderInfo.getIdRedirect() != 0){
             Order orderSwapInfo = orderService.getByIdRedirect(orderInfo.getIdRedirect());
             Product productSwapInfo = productService.getOne(orderSwapInfo.getIdProduct());
             productSwapInfo.setIdStatus(6);

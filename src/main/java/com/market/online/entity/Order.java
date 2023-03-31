@@ -39,7 +39,7 @@ public class Order {
     private Integer price;
 
     @Column(name = "rate")
-    private Integer rate;
+    private Integer rate = 0;
 
     @CreationTimestamp
     @Column(name = "created_date", nullable = false)

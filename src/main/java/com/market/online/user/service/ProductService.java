@@ -115,7 +115,7 @@ public class ProductService {
         postService.deletePostByIdProduct(idProduct);
         orderService.deleteByIdProduct(idProduct);
     }
-
+//List product
     public List<Map<String, Object>> getFeaturedProducts(HttpServletRequest request){
         User userInfo = userService.getUserLogin(request);
         Integer idUser = (userInfo != null) ? userInfo.getId() : 0;

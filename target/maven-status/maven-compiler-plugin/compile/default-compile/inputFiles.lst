@@ -41,14 +41,12 @@ F:\dev\source\webtraodoisp\src\main\java\com\market\online\dto\OrderDTO.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\entity\Message.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\repository\StatusRepository.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\user\controller\PostController.java
-F:\dev\source\webtraodoisp\src\main\java\com\market\online\common\response\ApiResponse.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\repository\RoleRepository.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\entity\CategoryMeta.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\common\utils\CommonUtils.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\common\utils\DateUtils.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\admin\controller\AdminUserController.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\repository\UserRepository.java
-F:\dev\source\webtraodoisp\src\main\java\com\market\online\common\response\ResponseCode.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\repository\GroupMessageRepository.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\user\service\ProductService.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\entity\GroupMessage.java
@@ -56,11 +54,9 @@ F:\dev\source\webtraodoisp\src\main\java\com\market\online\entity\Status.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\repository\TypeRepository.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\user\controller\ProfileController.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\user\service\CategoryMetaService.java
-F:\dev\source\webtraodoisp\src\main\java\com\market\online\common\exception\DefaultExceptionAdvice.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\admin\controller\AdminIndexController.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\config\scheduler\SchedulerConfig.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\repository\OrderHistoryRepository.java
-F:\dev\source\webtraodoisp\src\main\java\com\market\online\common\exception\CommonException.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\dto\UserDTO.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\dto\PostMetaDTO.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\user\service\GroupMemberService.java
@@ -77,7 +73,6 @@ F:\dev\source\webtraodoisp\src\main\java\com\market\online\admin\controller\Admi
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\admin\service\AdminCategoryMetaService.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\user\service\PostUserService.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\repository\PostUserRepository.java
-F:\dev\source\webtraodoisp\src\main\java\com\market\online\common\response\CommonResponse.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\config\handler\PageInterceptor.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\entity\Media.java
 F:\dev\source\webtraodoisp\src\main\java\com\market\online\user\service\GroupMessageService.java

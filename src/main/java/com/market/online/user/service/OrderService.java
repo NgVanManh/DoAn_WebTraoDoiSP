@@ -85,7 +85,7 @@ public class OrderService {
                 orderHistory.setIdUser(orderSwap.getIdBuyer());
                 orderHistory.setIdStatus(orderSwap.getIdStatus());
                 orderHistoryRepository.save(orderHistory);
-            }else{
+//            }else{
                 order.setIdStatus(2);
                 orderRepository.save(order);
 

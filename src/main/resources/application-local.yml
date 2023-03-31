@@ -21,21 +21,10 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
-  jackson:
-    time-zone: Asia/Ho_Chi_Minh
-    date-format: com.fasterxml.jackson.databind.util.ISO8601DateFormat
-    serialization:
-      write-dates-as-timestamps: true
 
 # uploading
 data:
   path: F:/dev/source/res/
-
-# logging
-logging:
-  level:
-    org.hibernate.SQL: DEBUG
-    org.springframework.web.client.RestTemplate: DEBUG
 
 session:
   login: USER_LOGIN
