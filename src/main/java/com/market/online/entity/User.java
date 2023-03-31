@@ -42,7 +42,7 @@ public class User {
     private String idRole;
 
     @Column(name = "is_locked")
-    private Integer isLocked;
+    private Integer isLocked = 1;
 
     @CreationTimestamp
     @Column(name = "created_date", updatable = false)

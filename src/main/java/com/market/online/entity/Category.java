@@ -25,7 +25,7 @@ public class Category {
     private String content;
 
     @Column(name = "is_locked")
-    private Integer isLocked;
+    private Integer isLocked = 1;
 
     @Transient
     private MultipartFile fileMedia;
